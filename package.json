@@ -10,10 +10,13 @@
   },
   "proxy": "http://localhost:3001",
   "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.4.1",
+    "mongoose": "^5.7.14",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "axios": "^0.18.0"
+    "react-scripts": "3.3.0"
   },
   "devDependencies": {
     "body-parser": "^1.19.0",
