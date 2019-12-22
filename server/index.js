@@ -1,8 +1,10 @@
 const express = require('express');
-const axios = require('axios');
 const bodyParser = require("body-parser");
 var requesttoken = require('request');
 const app = express();
+
+const github = require('./routes/githubContibutors')
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -22,4 +24,5 @@ app.get('/api/greeting', (req, res) => {
     res.send(JSON.stringify({ greeting: `Hello ${name}!` }));
 });
 
+app.use('/api',github)
 module.exports = app;
