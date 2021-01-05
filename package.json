@@ -10,7 +10,7 @@
   },
   "proxy": "http://localhost:3001",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "mongoose": "^5.7.14",
     "react": "^16.12.0",
